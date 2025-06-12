@@ -1,0 +1,530 @@
+[
+  {
+    "id": "",
+    "name": "The Quantum Echo",
+    "summary": "A theoretical physicist accidentally opens a portal to a parallel dimension, leading to a mind-bending chase across multiple realities to prevent a catastrophic collapse of spacetime.",
+    "actors": [
+      { "id": "", "name": "Elena Petrova" },
+      { "id": "", "name": "Marcus Chen" },
+      { "id": "", "name": "Sophie Dubois" },
+      { "id": "", "name": "David Kim" }
+    ],
+    "rates": [
+      { "id": "", "value": 4, "user": { "id": "", "name": "CinemaLover77" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "SciFiGeek" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "FilmCriticXYZ" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "MovieBuffette" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "ActionFan" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "ThoughtProvoker" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "DimensionHopper" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "ParadoxPal" } },
+      { "id": "", "value": 2, "user": { "id": "", "name": "CasualViewer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "RealityBender" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "FutureVoyager" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "PlotAnalyzer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "TimeTravelerTom" } }
+    ]
+  },
+  {
+    "id": "",
+    "name": "Whispers of the Old Oak",
+    "summary": "In a secluded village, a young orphan discovers an ancient, sentient oak tree that reveals secrets of forgotten folklore and a brewing magical conflict threatening their peaceful existence.",
+    "actors": [
+      { "id": "", "name": "Lily Bloom" },
+      { "id": "", "name": "Old Man Thistlewick" },
+      { "id": "", "name": "Aunt Willow" }
+    ],
+    "rates": [
+      { "id": "", "value": 5, "user": { "id": "", "name": "FantasyFanatic" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "StoryTeller" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "MythologyManiac" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "NatureLover" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "EnchantedSoul" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "SkepticalSam" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "FolkloreFinder" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "ForestDweller" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "WhimsicalWatcher" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "AncientWisdom" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "DreamWeaver" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "MagicExplorer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "RootSeeker" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "TreeHugger" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "SpiritGuide" } }
+    ]
+  },
+  {
+    "id": "",
+    "name": "Neon City Blues",
+    "summary": "A gritty detective navigates the rain-slicked, neon-lit streets of a dystopian metropolis, hunting a serial killer who leaves cryptic clues tied to classic literature.",
+    "actors": [
+      { "id": "", "name": "Jack 'Shadow' Miller" },
+      { "id": "", "name": "Detective Kaito" },
+      { "id": "", "name": "Madam X" }
+    ],
+    "rates": [
+      { "id": "", "value": 4, "user": { "id": "", "name": "NoirNerd" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "ThrillerBuff" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "UrbanExplorer" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "CyberPunkFan" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "GrittyGamer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "CitySleuth" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "MysteryMan" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "DarkDecoder" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "NightWatcher" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "GloomGoer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "ShadowWalker" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "TechNoir" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "RainyRater" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "FutureScribe" } }
+    ]
+  },
+  {
+    "id": "",
+    "name": "The Last Flight of the Nightingale",
+    "summary": "Based on a true story, this historical drama recounts the daring escape of a celebrated opera singer from war-torn Europe, aided by an underground network of resistance fighters.",
+    "actors": [
+      { "id": "", "name": "Isabella Rossi" },
+      { "id": "", "name": "Colonel Dietrich" },
+      { "id": "", "name": "The Resistance Leader" }
+    ],
+    "rates": [
+      { "id": "", "value": 5, "user": { "id": "", "name": "HistoryAficionado" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "DramaQueen" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "TrueStoryFan" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "OperaLover" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "WW2Historian" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "InspirationalWatch" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "FreedomFighter" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "MusicMaven" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "BraveryBringer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "HistoricalDrama" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "EuropeanHistory" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "UndergroundHero" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "SingingSiren" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "EscapeArtist" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "ResistanceRater" } }
+    ]
+  },
+  {
+    "id": "",
+    "name": "Silicon Sunset",
+    "summary": "In a future where AI governs every aspect of life, a brilliant programmer discovers a hidden flaw that could dismantle society, forcing her to choose between order and chaos.",
+    "actors": [
+      { "id": "", "name": "Dr. Anya Sharma" },
+      { "id": "", "name": "Unit 734 (Voice)" },
+      { "id": "", "name": "CEO Thompson" }
+    ],
+    "rates": [
+      { "id": "", "value": 4, "user": { "id": "", "name": "TechGuru" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "FutureShock" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "AIDebater" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "CodeBreaker" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "DystopiaDiver" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "SystemBuster" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "EthicalHacker" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "MindBlown" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "FutureThinker" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "AlgorithmAnalyst" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "SocietyShaker" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "DigitalDreamer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "CodeConnoisseur" } }
+    ]
+  },
+  {
+    "id": "",
+    "name": "Beneath the Shifting Sands",
+    "summary": "An archaeological team unearths an ancient artifact in the Sahara Desert, unleashing a forgotten curse that forces them to confront both supernatural horrors and their own inner demons.",
+    "actors": [
+      { "id": "", "name": "Professor Aris Thorne" },
+      { "id": "", "name": "Dr. Zara Khan" },
+      { "id": "", "name": "Desert Guide Karim" }
+    ],
+    "rates": [
+      { "id": "", "value": 3, "user": { "id": "", "name": "AdventureSeeker" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "MysteryMaven" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "CurseCrusher" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "AncientRuins" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "HorrorHead" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "SupernaturalScribe" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "DesertDrifter" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "ArtifactAficionado" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "IndianaJonesFan" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "TombRaider" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "LostLegend" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "InnerDemonDucker" } }
+    ]
+  },
+  {
+    "id": "",
+    "name": "The Culinary Cosmos",
+    "summary": "A whimsical animated adventure about a young chef whose cooking is so extraordinary, it opens a portal to a dimension where food is a living, breathing art form, leading to a cosmic cooking competition.",
+    "actors": [
+      { "id": "", "name": "Chef Remy (Voice)" },
+      { "id": "", "name": "Grandma Dumpling (Voice)" },
+      { "id": "", "name": "Galaxy Gourmand (Voice)" }
+    ],
+    "rates": [
+      { "id": "", "value": 5, "user": { "id": "", "name": "FoodieFilms" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "AnimatedAdmirer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "CosmicCook" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "WhimsicalWatcher" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "TasteTester" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "FamilyFilmFan" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "ImaginationEater" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "StarChef" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "PalatePleaser" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "DessertDevourer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "IngredientInspector" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "RecipeReviewer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "FlavorFiend" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "AnimatedEpicure" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "GourmetGalaxy" } }
+    ]
+  },
+  {
+    "id": "",
+    "name": "Crimson Harvest",
+    "summary": "A tense psychological thriller set in a remote farming community, where a series of unexplained disappearances forces a city detective to unravel the dark secrets held by the seemingly idyllic town.",
+    "actors": [
+      { "id": "", "name": "Detective Sarah Jenkins" },
+      { "id": "", "name": "Farmer Silas" },
+      { "id": "", "name": "The Mysterious Elder" }
+    ],
+    "rates": [
+      { "id": "", "value": 4, "user": { "id": "", "name": "SuspenseFan" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "PlotTwistPro" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "RuralRealist" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "MindBender" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "ThrillerAddict" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "SmallTownSecret" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "UnsettledViewer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "MysteryMan" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "CreepyCritic" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "WhodunitWatcher" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "PsychologicalPonderer" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "DarkDrama" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "DeepThinker" } }
+    ]
+  },
+  {
+    "id": "",
+    "name": "The Gearheart Gambit",
+    "summary": "In a steampunk world powered by intricate clockwork and steam, a brilliant inventor races against time to retrieve his stolen blueprint for a revolutionary airship before it falls into the wrong hands.",
+    "actors": [
+      { "id": "", "name": "Professor Phileas Cogsworth" },
+      { "id": "", "name": "Lady Ada Lovelace" },
+      { "id": "", "name": "The Baron von Steam" }
+    ],
+    "rates": [
+      { "id": "", "value": 4, "user": { "id": "", "name": "SteampunkLover" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "InventorWatcher" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "ClockworkCollector" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "AirshipAdventurer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "VictorianVisionary" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "GadgetGeek" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "MechanicalManiac" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "RetroFuturist" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "BrassAndGears" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "SteamPoweredFan" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "CogsworthCritic" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "BlueprintBuddy" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "TimelessTechnologist" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "IndustrialImagination" } }
+    ]
+  },
+  {
+    "id": "",
+    "name": "When the Stars Fell Silent",
+    "summary": "A poignant drama exploring the aftermath of a cosmic event that strips Earth of its visible stars, forcing humanity to confront its place in a suddenly darker, unfamiliar universe.",
+    "actors": [
+      { "id": "", "name": "Dr. Eleanor Vance" },
+      { "id": "", "name": "Young Thomas" },
+      { "id": "", "name": "The Astrologer" }
+    ],
+    "rates": [
+      { "id": "", "value": 5, "user": { "id": "", "name": "DeepThinker" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "EmotionalCinema" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "CosmicContemplator" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "ExistentialExplorer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "StarGazer" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "PhilosophicalPhile" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "HumanityHopeful" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "DarkSkyDreamer" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "ThoughtfulObserver" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "UniverseUnveiler" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "SilentStargazer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "PerspectiveChanger" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "EmotionalJourney" } }
+    ]
+  },
+  {
+    "id": "",
+    "name": "The Galactic Odyssey",
+    "summary": "A lone starship captain embarks on a perilous journey across the cosmos to save humanity from an ancient alien threat.",
+    "actors": [
+      { "id": "", "name": "Captain Eva Rostova" },
+      { "id": "", "name": "Commander Jax" },
+      { "id": "", "name": "Admiral Thorne" }
+    ],
+    "rates": [
+      { "id": "", "value": 5, "user": { "id": "", "name": "SpaceExplorer" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "SciFiBuff" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "AlienEnthusiast" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "CosmicCritic" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "StarshipCaptain" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "HumanitySavior" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "GalaxyRater" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "OdysseyObserver" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "ThreatTheorist" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "PerilousVoyage" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "DeepSpaceDiver" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "InterstellarInnovator" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "EpicAdventure" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "FutureFiction" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "StarSystemFan" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "PlotTwistPredictor" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "CosmicConqueror" } }
+    ]
+  },
+  {
+    "id": "",
+    "name": "Whispers in the Library",
+    "summary": "A curious librarian uncovers a hidden secret within the dusty shelves, leading her into a thrilling mystery that transcends time.",
+    "actors": [
+      { "id": "", "name": "Librarian Elara" },
+      { "id": "", "name": "Professor Eldrin" },
+      { "id": "", "name": "The Ancient Scroll Keeper" }
+    ],
+    "rates": [
+      { "id": "", "value": 4, "user": { "id": "", "name": "BookWorm" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "MysteryLover" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "TimeTraveler" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "LiteraryFan" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "SecretSeeker" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "DustyDetector" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "HistoricalHound" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "GenreJumper" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "QuietObserver" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "StorySleuth" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "BeyondThePages" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "KnowledgeKnight" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "ParadigmShifter" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "WhisperWitness" } }
+    ]
+  },
+  {
+    "id": "",
+    "name": "Chronos Heist",
+    "summary": "A team of elite time-traveling thieves attempts to pull off the ultimate heist, but altering the past has unforeseen consequences.",
+    "actors": [
+      { "id": "", "name": "Jax 'The Chronos' Riley" },
+      { "id": "", "name": "Dr. Temporal" },
+      { "id": "", "name": "The Fixer" }
+    ],
+    "rates": [
+      { "id": "", "value": 5, "user": { "id": "", "name": "TimeBender" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "HeistHater" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "ConsequenceCruncher" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "PastPonderer" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "FutureFiddler" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "ParadoxPro" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "TemporalThrill" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "LoopHoleLover" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "ConvolutedCritique" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "ElapsedEvaluator" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "DimensionDoer" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "TemporalTasker" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "EliteEscapist" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "ButterflyEffect" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "RewindReviewer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "GrandfatherParadox" } }
+    ]
+  },
+  {
+    "id": "",
+    "name": "Echoes of the Forgotten",
+    "summary": "In a post-apocalyptic world, a young scavenger discovers an old diary that holds the key to humanity's lost history and future.",
+    "actors": [
+      { "id": "", "name": "Elara the Scavenger" },
+      { "id": "", "name": "The Old Archivist" },
+      { "id": "", "name": "The Seeker" }
+    ],
+    "rates": [
+      { "id": "", "value": 4, "user": { "id": "", "name": "PostApocFan" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "HopeSeeker" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "RuinsRater" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "SurvivorStory" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "DiaryDiscoverer" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "FutureForecaster" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "HistoryHound" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "DustyDocUser" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "ForgottenFan" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "EchoEnthusiast" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "WastelandWanderer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "KnowledgeKeeper" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "HumanityHistorian" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "ScavengerSupporter" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "LostWorldLover" } }
+    ]
+  },
+  {
+    "id": "",
+    "name": "The Crimson Tide",
+    "summary": "A gripping naval drama where a rookie submarine crew must navigate treacherous waters and internal conflicts during a critical mission.",
+    "actors": [
+      { "id": "", "name": "Captain Marcus Stone" },
+      { "id": "", "name": "Lieutenant Anya Sharma" },
+      { "id": "", "name": "Chief Engineer Davis" }
+    ],
+    "rates": [
+      { "id": "", "value": 5, "user": { "id": "", "name": "NavalNerd" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "SubmarineFan" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "TenseThriller" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "RookieReviewer" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "UnderseaExplorer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "ConflictCraver" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "MissionMaestro" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "DeepDiveDrama" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "PressurePonderer" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "GrippingGazer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "OceanicObserver" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "CrisisCommentator" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "SubmersibleSpectator" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "WaterWorldWatcher" } }
+    ]
+  },
+  {
+    "id": "",
+    "name": "Neon Dreams, Cyber Knights",
+    "summary": "In a futuristic cyberpunk city, a renegade hacker and a disillusioned combat android form an unlikely alliance to fight corporate tyranny.",
+    "actors": [
+      { "id": "", "name": "Renegade Hacker 'Ghost'" },
+      { "id": "", "name": "Combat Android Unit 9" },
+      { "id": "", "name": "Corpo CEO Vanguard" }
+    ],
+    "rates": [
+      { "id": "", "value": 5, "user": { "id": "", "name": "CyberpunkGuru" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "AndroidAdvocate" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "HackerHero" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "TyrannyTarget" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "FutureFighter" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "UnlikelyAlly" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "NeonNights" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "DigitalDefender" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "CorporateCritique" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "RenegadeReviewer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "KnightOfCode" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "FuturisticFan" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "ElectricEvaluator" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "ResistanceRater" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "AIAppreciator" } }
+    ]
+  },
+  {
+    "id": "",
+    "name": "The Last Artisan",
+    "summary": "A heartwarming tale of an elderly craftsman who uses his traditional skills to revive a dying town, inspiring hope and community.",
+    "actors": [
+      { "id": "", "name": "Old Master Eldrin" },
+      { "id": "", "name": "Young Apprentice Lily" },
+      { "id": "", "name": "Mayor Thompson" }
+    ],
+    "rates": [
+      { "id": "", "value": 5, "user": { "id": "", "name": "HeartwarmingWatcher" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "CommunityChampion" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "CraftsmanCritique" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "DyingTownDiver" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "InspirationalInstigator" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "HopeSpreader" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "TraditionalTale" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "SkillfulStory" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "ArtisanAdmirer" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "RevivalReviewer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "FeelGoodFilm" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "GenerationalGazer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "SmallTownSupporter" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "HandmadeHero" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "LegacyLover" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "SimplePleasures" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "TimelessTradition" } }
+    ]
+  },
+  {
+    "id": "",
+    "name": "Shadows of the Mesa",
+    "summary": "A mysterious stranger rides into a desolate Western town, bringing with him a past that will shake the foundations of its corrupt leaders.",
+    "actors": [
+      { "id": "", "name": "The Drifter" },
+      { "id": "", "name": "Sheriff Brody" },
+      { "id": "", "name": "The Saloon Keeper" }
+    ],
+    "rates": [
+      { "id": "", "value": 4, "user": { "id": "", "name": "WesternWatcher" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "MysteryManifold" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "CorruptCritic" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "Gunslinger" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "JusticeSeeker" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "DesolateDiva" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "PastRevealer" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "DesertDrama" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "FrontierFan" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "ShowdownSpectator" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "TownTurner" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "MesaMaven" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "RanchReviewer" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "LegendaryLawman" } }
+    ]
+  },
+  {
+    "id": "",
+    "name": "The Alchemist's Garden",
+    "summary": "A whimsical fantasy adventure where a young apprentice discovers a magical garden capable of transforming wishes into reality, with unexpected twists.",
+    "actors": [
+      { "id": "", "name": "Apprentice Elara" },
+      { "id": "", "name": "Master Alchemist Thorn" },
+      { "id": "", "name": "The Garden Spirit (Voice)" }
+    ],
+    "rates": [
+      { "id": "", "value": 5, "user": { "id": "", "name": "FantasyFan" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "MagicMovie" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "WhimsicalWatcher" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "TwistTurned" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "WishfulThinker" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "EnchantedGarden" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "AlchemyAficionado" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "RealityReviser" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "ExpectedExpectations" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "Dreamweaver" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "TwistfulReviewer" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "GardenGazer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "MagicalMystery" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "AdventureAppraiser" } }
+    ]
+  },
+  {
+    "id": "",
+    "name": "Code Blackout",
+    "summary": "A high-stakes techno-thriller where a brilliant programmer must race against time to prevent a global cyberattack that threatens to plunge the world into chaos.",
+    "actors": [
+      { "id": "", "name": "Programmer Anya Sharma" },
+      { "id": "", "name": "Agent 'Cipher' Miller" },
+      { "id": "", "name": "The Master Hacker" }
+    ],
+    "rates": [
+      { "id": "", "value": 5, "user": { "id": "", "name": "TechThriller" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "CybersecurityCritic" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "ChaosCrusher" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "GlobalGazer" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "TimePressure" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "BlackoutBuff" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "HackerHero" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "DigitalDilemma" } },
+      { "id": "", "value": 3, "user": { "id": "", "name": "CodeConnoisseur" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "SystemSlammer" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "WorldSaver" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "CyberSavvy" } },
+      { "id": "", "value": 5, "user": { "id": "", "name": "PanicPreventer" } },
+      { "id": "", "value": 4, "user": { "id": "", "name": "DataDefender" } }
+    ]
+  }
+]
