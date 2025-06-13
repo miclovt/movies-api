@@ -30,8 +30,9 @@ export class MoviesService {
   async GetMovie(id: string): Promise<MovieDto | null> {
     const result = await this._movieRepository.findOne({
       where: { id: id },
+      relations: ['movieActors', 'movieActors.actor', 'rates', 'rates.user'],
     });
-
+    console.log(JSON.stringify(result));
     return Promise.resolve(
       result ? MovieDto.parse(result as MovieEntity) : null,
     );

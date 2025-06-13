@@ -9,6 +9,7 @@ export class RateDto {
   @IsNotEmpty()
   @IsUUID()
   userId: string;
+  userName: string;
   @IsNumber()
   @Min(1)
   @Max(5)
@@ -18,6 +19,7 @@ export class RateDto {
     dto.id = entity.id;
     dto.movieId = entity.movie.id;
     dto.userId = entity.user.id;
+    dto.userName = entity.user.name;
     dto.value = entity.value;
     return dto;
   }

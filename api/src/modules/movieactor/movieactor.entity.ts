@@ -11,7 +11,6 @@ export class MovieActorEntity {
   @ManyToOne(() => MovieEntity, (movie) => movie.movieActors)
   @JoinColumn({ name: 'movieId' })
   movie: MovieEntity;
-
   @ManyToOne(() => ActorEntity, (actor) => actor.movieActors)
   @JoinColumn({ name: 'actorId' })
   actor: ActorEntity;

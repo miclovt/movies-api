@@ -19,14 +19,16 @@ export class MovieDto {
     dto.summary = entity.summary;
     dto.actors = entity.movieActors?.map((x) => {
       const actor = new ActorDto();
-      actor.id = entity.id;
+      actor.id = x.actorId;
+      actor.name = x.actor.name;
       return actor;
     });
     dto.rates = entity.rates?.map((x) => {
       const rate = new RateDto();
       rate.id = x.id;
-      rate.movieId = x.movie.id;
-      rate.value = rate.value;
+      rate.value = x.value;
+      rate.userId = x.user?.id;
+      rate.userName = x.user?.name;
       return rate;
     });
 

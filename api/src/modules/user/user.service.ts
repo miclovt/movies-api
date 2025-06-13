@@ -28,6 +28,6 @@ export class UserService {
       .returning('id')
       .execute();
 
-    return Promise.resolve(result.raw.id);
+    return Promise.resolve(result.raw[0].id);
   }
 }

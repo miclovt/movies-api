@@ -160,11 +160,15 @@ export class SeedService implements OnModuleInit {
         });
       }
       // seed 5 rates
+      console.log(userIds);
       for (let index = 0; index < 5; index++) {
+        const x = userIds[Math.floor(Math.random() * userIds.length)];
+        console.log(x);
         await this._ratesService.AddRate({
           movieId: movieId,
           value: Math.floor(Math.random() * (5 - 1 + 1)) + 1,
-          userId: userIds[Math.floor(Math.random() * userIds.length)],
+          userId: x,
+          userName: '',
         });
       }
     }

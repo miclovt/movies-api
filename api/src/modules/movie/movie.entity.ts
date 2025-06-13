@@ -20,7 +20,7 @@ export class MovieEntity {
   @OneToMany(() => RateEntity, (rate) => rate.movie)
   @JoinColumn({ name: 'movieId' })
   rates: RateEntity[];
-  @OneToMany(() => MovieActorEntity, (movieActor) => movieActor.actor)
+  @OneToMany(() => MovieActorEntity, (movieActor) => movieActor.movie)
   movieActors: MovieActorEntity[];
 
   static parse(dto: MovieDto): MovieEntity {
