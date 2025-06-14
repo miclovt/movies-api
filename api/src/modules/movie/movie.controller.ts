@@ -73,7 +73,7 @@ export class MoviesController {
 
     const result = new RateAverageDto();
     result.movieId = id;
-    result.average = await this._ratesService.GetMovieRate(id);
+    result.average = (await this._ratesService.GetMovieRate(id)) ?? 0;
     return Promise.resolve(result);
   }
 

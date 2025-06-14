@@ -1,9 +1,9 @@
 export interface Movie {
-  id: string;
+  id?: string;
   name: string;
   summary: string;
-  actors: Actor[];
-  rates: Rate[];
+  actors?: Actor[];
+  rates?: Rate[];
 }
 
 export interface User {
@@ -12,7 +12,7 @@ export interface User {
 }
 
 export interface Actor {
-  id: string;
+  id?: string;
   name: string;
 }
 
@@ -25,5 +25,5 @@ export interface Rate {
 
 export interface RateAverage {
   movieId: string;
-  average: number | null;
+  average: number;
 }

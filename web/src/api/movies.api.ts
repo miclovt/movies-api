@@ -14,26 +14,59 @@ export const GetMovie = async (id: string): Promise<Movie> => {
 };
 export const GetMovieAvgRate = async (id: string): Promise<RateAverage> => {
   const response = await apiClient.get(`${BASE_ROUTE}/${id}/rate`);
+  console.log(response);
   return Promise.resolve(response.data);
 };
 
-export const CreateMovie = async (obj: Movie): Promise<string> => {
-  const response = await apiClient.post(BASE_ROUTE, obj);
+export const CreateMovie = async (
+  obj: Movie,
+  apiKey: string
+): Promise<string> => {
+  const response = await apiClient.post(BASE_ROUTE, obj, {
+    headers: { "x-api-key": apiKey },
+  });
   return Promise.resolve(response.data);
 };
 
-export const UpdateMovie = async (id: string, obj: Movie): Promise<void> => {
-  await apiClient.put(`${BASE_ROUTE}/${id}`, obj);
+export const UpdateMovie = async (
+  id: string,
+  obj: Movie,
+  apiKey: string
+): Promise<void> => {
+  await apiClient.put(`${BASE_ROUTE}/${id}`, obj, {
+    headers: { "x-api-key": apiKey },
+  });
 };
 
-export const DeleteMovie = async (id: string): Promise<void> => {
-  await apiClient.delete(`${BASE_ROUTE}/${id}`);
+export const DeleteMovie = async (
+  id: string,
+  apiKey: string
+): Promise<void> => {
+  await apiClient.delete(`${BASE_ROUTE}/${id}`, {
+    headers: { "x-api-key": apiKey },
+  });
 };
 
-export const AddMovieActor = async (movieId: string, actorId: string) => {
-  await apiClient.post(`${BASE_ROUTE}/${movieId}`, { actorId: actorId });
+export const AddMovieActor = async (
+  movieId: string,
+  actorId: string,
+  apiKey: string
+) => {
+  await apiClient.post(
+    `${BASE_ROUTE}/${movieId}/actor`,
+    { actorId: actorId },
+    {
+      headers: { "x-api-key": apiKey },
+    }
+  );
 };
 
-export const RemoveMovieActor = async (movieId: string, actorId: string) => {
-  await apiClient.delete(`${BASE_ROUTE}/${movieId}/actor/${actorId}`);
+export const RemoveMovieActor = async (
+  movieId: string,
+  actorId: string,
+  apiKey: string
+) => {
+  await apiClient.delete(`${BASE_ROUTE}/${movieId}/actor/${actorId}`, {
+    headers: { "x-api-key": apiKey },
+  });
 };

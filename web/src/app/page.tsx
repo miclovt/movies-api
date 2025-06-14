@@ -1,5 +1,6 @@
 "use client";
 import { GetMovies } from "@/api/movies.api";
+import CreateMovieDialog from "@/components/createMovieDialog";
 import { Link } from "@/components/link";
 import { Movie } from "@/types/movies";
 import { useEffect, useState } from "react";
@@ -8,6 +9,11 @@ export default function Home() {
   const [movies, setMovies] = useState<Movie[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>();
+  const [showCreateMovieDialog, setShowCreateMovieDialog] =
+    useState<boolean>(false);
+
+  const [showCreateActorDialog, setShowCreateActorDialog] =
+    useState<boolean>(false);
 
   useEffect(() => {
     const LoadMovies = async () => {
@@ -42,8 +48,60 @@ export default function Home() {
   return (
     <div className="bg-white rounded-lg shadow-xl p-6">
       <h1 className="text-4xl font-extrabold mb-8 text-center text-gray-900">
-        All Movies
+        Cuevana
       </h1>
+      <div className="flex flex-col sm:flex-row justify-between items-center mb-8 space-y-4 sm:space-y-0 sm:space-x-4">
+        <h1 className="text-4xl font-extrabold text-gray-900">All Movies</h1>
+        <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
+          <button
+            onClick={() => setShowCreateMovieDialog(true)}
+            className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out shadow-lg flex items-center justify-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 mr-2"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+              />
+            </svg>
+            Create Movie
+          </button>
+          <button
+            onClick={() => setShowCreateMovieDialog(true)}
+            className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out shadow-lg flex items-center justify-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 mr-2"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+              />
+            </svg>
+            Create Actor
+          </button>
+        </div>
+      </div>
+      {showCreateMovieDialog && (
+        <CreateMovieDialog onClose={() => setShowCreateMovieDialog(false)} />
+      )}
+      {showCreateActorDialog && (
+        <CreateMovieDialog onClose={() => setShowCreateActorDialog(false)} />
+      )}
+
       {movies && movies.length === 0 ? (
         <p className="text-center text-gray-600 text-lg">
           No movies found. Why not add one?

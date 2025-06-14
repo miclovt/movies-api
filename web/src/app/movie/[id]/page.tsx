@@ -1,5 +1,6 @@
 "use client";
 import { GetMovie, GetMovieAvgRate } from "@/api/movies.api";
+import AddActorsDialog from "@/components/AddActorsDialog";
 import { Link } from "@/components/link";
 import { Movie, Rate, RateAverage } from "@/types/movies";
 import { useParams } from "next/navigation";
@@ -12,6 +13,8 @@ const MoviePage = () => {
   const [avgRate, setAvgRate] = useState<RateAverage>();
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>();
+  const [showAddActorsDialog, setShowAddActorsDialog] =
+    useState<boolean>(false);
 
   useEffect(() => {
     const LoadMovie = async (id: string) => {
@@ -65,15 +68,55 @@ const MoviePage = () => {
           </svg>
           Back to Movies
         </Link>
-        <h1 className="text-4xl font-extrabold mb-4 text-gray-900">
-          {movie?.name}
-        </h1>
+        <div className="flex flex-col sm:flex-row justify-between items-center mb-8 space-y-4 sm:space-y-0 sm:space-x-4">
+          <h1 className="text-4xl font-extrabold mb-4 text-gray-900">
+            {movie?.name}
+          </h1>
+          <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
+            <button
+              onClick={() => setShowAddActorsDialog(true)}
+              className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 ease-in-out shadow-lg flex items-center justify-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5 mr-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                />
+              </svg>
+              Add Actor(s)
+            </button>
+          </div>
+        </div>
+        {showAddActorsDialog && (
+          <AddActorsDialog
+            movieId={id}
+            currentActorsIdsInMovie={
+              movie?.actors?.map((x) => x.id) as string[]
+            }
+            onClose={() => setShowAddActorsDialog(false)}
+            onUpdate={() => window.location.reload()}
+          />
+        )}
         <p className="text-gray-700 mb-2">
           <span className="font-semibold">Summary:</span> {movie?.summary}
         </p>
         <p className="text-gray-800 text-lg font-bold mb-6">
           Average Rating:
           <span className="text-blue-600">{avgRate?.average}</span> / 5
+        </p>
+        <p className="text-gray-800 text-lg font-bold mb-6">
+          Actors:
+          <span className="text-gray-600">
+            {movie?.actors?.map((x) => x.name).join(",")}
+          </span>
         </p>
 
         <section className="mt-8">
@@ -100,64 +143,6 @@ const MoviePage = () => {
                 ))}
             </div>
           )}
-
-          {/* <h3 className="text-2xl font-bold mb-4 text-gray-900">
-            Add Your Rating
-          </h3>
-          <form onSubmit={handleRatingSubmit} className="space-y-4">
-            <div>
-              <label
-                htmlFor="score"
-                className="block text-gray-700 font-semibold mb-2"
-              >
-                Score (1-5):
-              </label>
-              <input
-                type="number"
-                id="score"
-                min="1"
-                max="5"
-                value={score}
-                onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-                  setScore(e.target.value)
-                }
-                required
-                className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 shadow-sm"
-              />
-            </div>
-            <div>
-              <label
-                htmlFor="review"
-                className="block text-gray-700 font-semibold mb-2"
-              >
-                Review (Optional):
-              </label>
-              <textarea
-                id="review"
-                value={review}
-                onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) =>
-                  setReview(e.target.value)
-                }
-                rows={4}
-                className="w-full p-3 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500 shadow-sm"
-              ></textarea>
-            </div>
-            {submitError && (
-              <p className="text-red-500 text-sm mt-2">{submitError}</p>
-            )}
-            {submitSuccess && (
-              <p className="text-green-600 text-sm mt-2">
-                Rating submitted successfully!
-              </p>
-            )}
-            <button
-              type="submit"
-              disabled={submitting}
-              className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-md transition duration-300 ease-in-out shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
-            >
-              {submitting ? "Submitting..." : "Submit Rating"}
-            </button>
-          </form> */}
         </section>
       </div>
     </>

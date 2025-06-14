@@ -1,4 +1,4 @@
 export class RateAverageDto {
   movieId: string;
-  average: number | null;
+  average: number;
 }

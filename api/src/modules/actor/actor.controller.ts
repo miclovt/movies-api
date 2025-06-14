@@ -13,7 +13,7 @@ import { ActorsService } from './actor.service';
 import { ActorDto } from './actor.dto';
 
 @Controller('actor')
-export class actorsController {
+export class ActorsController {
   constructor(private readonly _actorsService: ActorsService) {}
   @Get(':id')
   async GetActor(@Param('id') id: string): Promise<ActorDto> {
