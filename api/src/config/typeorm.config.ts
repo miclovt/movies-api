@@ -7,11 +7,11 @@ import { UserEntity } from 'src/modules/user/user.entity';
 
 export const typeOrmConfig: TypeOrmModuleOptions = {
   type: 'postgres',
-  host: 'localhost',
+  host: process.env.DB_HOST,
   port: 5432,
-  username: 'postgres',
-  password: 'admin',
-  database: 'movies',
+  username: process.env.DB_USERNAME,
+  password: process.env.DB_USERPASS,
+  database: process.env.DB_NAME,
   entities: [
     MovieEntity,
     ActorEntity,
